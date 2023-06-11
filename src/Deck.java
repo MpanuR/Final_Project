@@ -14,6 +14,7 @@ public class Deck {
         cards = new ArrayList<>();
         // array of suits of cards and ranks
         String[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
+        // 11 = jack, 12 = queen, 13 = king, 14 = ace
         int[] ranks = { 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 };
 
         // initialize card list to new card objects with each suit and rank value
